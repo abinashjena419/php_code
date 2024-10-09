@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form handling with php</title>
+</head>
+<body>
+    <form action="./form.php" method="post">
+        <input type="text" name="name" placeholder="user name"><br><br>
+        <input type="text" name="email" placeholder="user email"><br><br>
+        <input type="password" name="password" placeholder="user password"><br><br>
+        <input type="checkbox" name="skills[]" value="JAVA"> <span>JAVA</span>
+        <br><br>
+        <input type="checkbox" name="skills[]" value="JAVA SCRIPT"> <span>JAVA SCRIPT</span>
+        <br><br>
+        <input type="checkbox" name="skills[]" value="HTML"> <span>HTML</span>
+        <br><br>
+        <input type="checkbox" name="skills[]" value="CSS"> <span>CSS</span>
+        <br><br>
+        <input type="checkbox" name="skills[]" value="PHP"> <span>PHP</span>
+        <br><br>
+        <input type="checkbox" name="skills[]" value="SHELL SCRIPTING"> <span>SHELL SCRIPTING</span>
+        <br><br>
+        <input type="radio" name="gender" value="male"> <span>male</span>
+        <br><br>
+        <input type="radio" name="gender" value="female"> <span>female</span>
+        <br><br>
+        <input type="radio" name="gender" value="others"> <span>others</span>
+        <br><br>
+
+        <select name="city">
+            <option>select your city</option>
+            <option value="noida">noida</option>
+            <option value="delhi">delhi</option>
+            <option value="gurgaon">gurgaon</option>
+        </select>
+        <br><br>
+        <button>sign up</button>
+    </form>
+</body>
+</html>

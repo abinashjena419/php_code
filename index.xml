@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<result>
+
+<student1 id="1">
+    <name>sipu</name>
+    <phy>78</phy>
+    <che>75</che>
+    <mth>70</mth>
+</student1>
+
+
+<student2 id="2">
+    <name>ranjit</name>
+    <phy>70</phy>
+    <che>74</che>
+    <mth>72</mth>
+</student2>
+
+</result>
